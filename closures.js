@@ -35,10 +35,10 @@ return someinstance;
 var set =function(n){
 //var someinstance = {};
 //someinstance.n = n;
-fn:function(x){
-	 Math.pow(n,x)
+return function(x){
+	 Math.pow(x,n)
 }
-return fn
+
 }
 
 
@@ -72,7 +72,7 @@ var pingPongTracker=function(){
 	someinstance.count=0;
 	someinstance.x;
 	someinstance.timeSpentPlaying=function(){
-		x= setInterval(function(){ cont++ }, 1000)
+		x= setInterval(function(){ count++ }, 1000)
 		return count
 
 	},
