@@ -13,9 +13,14 @@
   */
 
   var deepEquals = function(obj1, obj2){
+<<<<<<< HEAD
    if((JSON.stringify(obj1)===JSON.stringify(obj2))){
     return true
   }
   return false 
 
 }
+=======
+
+  }
+>>>>>>> 1ab6029e2b0ea9577ff72d4c21a7412c9e55a82c
