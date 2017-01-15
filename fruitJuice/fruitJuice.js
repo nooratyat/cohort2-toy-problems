@@ -31,7 +31,7 @@ Jar.prototype.add = function(n,string) {
 Jar.prototype.getConcentration = function(string) {
 	for(var key in object){
 		if(key===string){
-			return this.obj[key]/this.concentration *100%
+			return (this.obj[keys]/this.concentration )*100%
 		}
 		return 0
 	}
