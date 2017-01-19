@@ -34,6 +34,7 @@ rotate(data, 11)    // => [5, 1, 2, 3, 4]
 rotate(data, 12478) // => [3, 4, 5, 1, 2]
 
 */
+<<<<<<< HEAD
 
 
 function rotate(array, steps){
@@ -62,6 +63,11 @@ function rotate(array, steps){
   
 
 }}
+=======
+function rotate(array, steps){
+
+}
+>>>>>>> a5c71016976e98c9702b3634f9a79bf8902739cd
 
 /*
 Problem 2 (Advanced)
@@ -81,8 +87,11 @@ nextBigger(531)==-1
 */
 
 function nextBigger(num){
+<<<<<<< HEAD
 	var x=num.split("");
 	x.sort(function(b-a))
 	return x.join
+=======
+>>>>>>> a5c71016976e98c9702b3634f9a79bf8902739cd
 
 }
