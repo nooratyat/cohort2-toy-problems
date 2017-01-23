@@ -22,6 +22,7 @@ ticTacToe(solvedBoard);//should return 1
 */
 
 function ticTacToe(board){
+<<<<<<< HEAD
 	var x=[];
 	var o=[];
 	//if a row or coloumn or diagonal has both 1 & 2 return -1
@@ -57,3 +58,7 @@ function ticTacToe(board){
 
 
 
+=======
+	
+};
+>>>>>>> 42a961f95ede9dc34c2125c99e247e9b7bf32aad
