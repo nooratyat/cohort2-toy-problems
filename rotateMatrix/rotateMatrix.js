@@ -26,7 +26,11 @@
  * // rotatedMatrix is:
  * [ ['D',9,5,1],
  *  ['E','A',6,2],
+<<<<<<< HEAD
  *  ['F','B',7,3]
+=======
+ *  ['F','B',7,3],
+>>>>>>> 1337768aeb5d682fb6643a9f52b37165938d4930
  *  ['G','C',8,4]
  * ]
  * rotatedMatrix[0][0]; // 'D'
@@ -38,6 +42,7 @@
  */
 
 var rotateMatrix =function (matrix) {
+<<<<<<< HEAD
 	for (var i = 0; i < matrix.length; i++) {
 		for (var j= 0; j < matrix[i].length; j++) {
 		var x= matrix[i][j]
@@ -64,4 +69,8 @@ var rotateMatrix =function (matrix) {
 
 
 
+=======
+	
+}
+>>>>>>> 1337768aeb5d682fb6643a9f52b37165938d4930
 ///////////////////
