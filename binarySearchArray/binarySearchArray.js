@@ -10,6 +10,7 @@
  * console.log(index); // 4
  */
 
+<<<<<<< HEAD
  var binarySearch = function (array, target) {
 //// must divide the array such we have minindex  ,maxindex  and middelindex and make the search in each part
 /// compare the target with middel in sorted array 
@@ -35,3 +36,9 @@ while (min <= max) {
 
 return -1;
 }
+=======
+var binarySearch = function (array, target) {
+  
+};
+
+>>>>>>> 058d88e467c5e3285e230388b5013dd17b1a7a31
