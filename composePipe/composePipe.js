@@ -39,11 +39,16 @@ var add2 = function(number){ return number + 2; }
 var multiplyBy3 = function(number){ return number * 3; }
 
 var pipe = function(func1,func2){
+<<<<<<< HEAD
   _.Each(arguments, function(x){
     return func2( func1(x) );
 });
   
 }; 
+=======
+  
+};
+>>>>>>> 32ec765f1092370c51aa9304f6bcb68a44b9cb07
 
 var addAndMultiplyTwice = pipe(add2, multiplyBy3, multiplyBy3);
 
@@ -53,6 +58,7 @@ var addAndMultiplyTwice = pipe(add2, multiplyBy3, multiplyBy3);
  var exclaim = function(statement) { return statement.toUpperCase() + '!';}
 
 var compose = function(){
+<<<<<<< HEAD
    var i = arguments.length
  _.Each(arguments,function(x){
  var result = arguments[i].apply(this, arguments); 
@@ -63,6 +69,10 @@ var compose = function(){
  
 };
   
+=======
+  
+};
+>>>>>>> 32ec765f1092370c51aa9304f6bcb68a44b9cb07
 
 
 var welcome = compose(greet, exclaim);
