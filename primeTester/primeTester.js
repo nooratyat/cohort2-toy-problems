@@ -5,6 +5,7 @@
  */
 var primeTester = function(n) {
 
+<<<<<<< HEAD
 
   if (n===1)
   {
@@ -31,6 +32,10 @@ var primeTester = function(n) {
 
 
 
+=======
+}
+
+>>>>>>> ec1197ded368e7aad2cc2c29d5059a3905f42645
  /* Extra credit: Write a function that generates a list of all prime numbers
   * in a user-specified range (inclusive). If you're not quite sure where to start,
   * check out the Sieve of Eratosthenes on Wikipedia. (And if you're feeling
