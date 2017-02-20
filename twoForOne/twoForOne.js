@@ -66,6 +66,7 @@ function pyramid(cans){
 		count++
 	}
 	return count
+	/////this 
 };
 
 
